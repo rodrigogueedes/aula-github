@@ -1,0 +1,8 @@
+CREATE DATABASE treina_recife;
+
+CREATE TABLE tb_alunos (
+    INTEGER id AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(50) NOT NULL,
+    email VARCHAR(150) NOT NULL,
+    data_nascimento DATETIME NOT NULL;
+)
