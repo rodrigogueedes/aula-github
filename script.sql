@@ -11,3 +11,7 @@ INSERT INTO tb_alunos
 ('id', 'nome', 'email', 'data_nascimento')
 VALUES
 (1, "Rodrigo Guedes Silva", "rodrigogueedes7@gmail.com" , TIMESTAMP '2007-01-13')
+
+DELETE FROM treina_recife.tb_alunos WHERE id = 1;
+
+DROP TABLE treina_recife.tb_alunos;
